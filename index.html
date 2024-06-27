@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Random Quote Generator</title>
+  </head>
+  <body>
+    <div class="quote-box">
+     <h2>Quote of the day</h2>
+
+     <blockquote id="quote">Loading...</blockquote>
+     <span id="author">Loading...</span>
+       <div>
+        <button onclick="getQuote(apiUrl[0])"> Random Quotes</button>
+        <button onclick="getQuote(apiUrl[1])"> Quotes on Tech</button>
+        <button onclick="getQuote(apiUrl[2])"> Quotes on History</button>
+        <button onclick="tweet()"><img src="x-logo.png" alt="share on X"></button>
+       </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+  </body>
+</html>
